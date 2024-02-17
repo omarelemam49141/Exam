@@ -1,0 +1,29 @@
+button {
+    width: 200px;
+    font-size: 20px !important;
+}
+
+.header {
+    background-color: rgb(232, 232, 232);
+    border-radius: 5px;
+}
+
+.body {
+    border: 2px solid grey;
+    box-shadow: 5px 5px 0 black;
+    height: 400px;
+}
+
+.footer {
+    background-color: aliceblue;
+    border: 2px solid rgb(234, 234, 234);
+}
+
+.disabledBtn {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
+
+#right-result, #wrong-result, #final-result {
+    display: none;
+}
